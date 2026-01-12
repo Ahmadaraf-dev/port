@@ -13,7 +13,7 @@ export const NAV_ITEMS: NavItem[] = [
 export const SOCIAL_LINKS = {
   github: 'https://github.com/',
   linkedin: 'https://linkedin.com/in/',
-  email: 'mailto:ahmad@example.com',
+  email: 'mailto:ahmadaraf14@gmail.com',
   cv: '/resume.pdf' // Placeholder path
 };
 
