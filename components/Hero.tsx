@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Download } from 'lucide-react';
 import { SOCIAL_LINKS } from '../constants';
 import { Link } from 'react-router-dom';
+import heroImg from '../assets/images/portfolio.jpg';
+
+
 
 const Hero = () => {
   return (
@@ -49,7 +52,7 @@ const Hero = () => {
               </Link>
               <a 
                 href={SOCIAL_LINKS.cv}
-                target="_blank" 
+                download="AhmadRufai -RESUME.pdf" 
                 rel="noopener noreferrer"
                 className="px-8 py-3.5 text-base font-semibold text-slate-700 dark:text-white border border-slate-300 dark:border-slate-600 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
               >
@@ -68,7 +71,7 @@ const Hero = () => {
                 {/* Decorative circle behind image */}
                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-full blur-2xl opacity-20 dark:opacity-40 animate-pulse"></div>
                 <img 
-                  src="https://picsum.photos/600/600?grayscale" 
+                  src={heroImg} 
                   alt="AhmadRufai Yakubu Ozovehe" 
                   className="relative w-full h-full object-cover rounded-3xl shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500 border-4 border-white dark:border-slate-800"
                 />

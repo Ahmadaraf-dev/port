@@ -14,7 +14,7 @@ export const SOCIAL_LINKS = {
   github: 'https://github.com/',
   linkedin: 'https://linkedin.com/in/',
   email: 'mailto:ahmadaraf14@gmail.com',
-  cv: '/resume.pdf' // Placeholder path
+  cv: '/AhmadRufai-ReESUME.pdf' // Placeholder path
 };
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
@@ -47,10 +47,10 @@ export const PROJECTS: Project[] = [
     id: 'vdm',
     title: 'VDM Initiative Management',
     role: 'Lead Frontend Engineer',
-    stack: ['React', 'TypeScript', 'Node.js', 'MongoDB'],
-    description: 'A comprehensive management dashboard for a social impact initiative.',
+    stack: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB'],
+    description: 'A comprehensive complaint management system for a social impact initiative.',
     problem: 'The initiative relied on spreadsheets, leading to data redundancy and slow response times for beneficiary tracking.',
-    solution: 'Built a centralized dashboard with role-based access control, real-time data visualization using Recharts, and automated reporting.',
+    solution: 'Built a centralized system with role-based access control, real-time data visualization using Recharts, and automated reporting.',
     impact: 'Reduced administrative workload by 40% and improved beneficiary tracking accuracy by 95%.',
     imageUrl: 'https://picsum.photos/800/600?random=1',
   },
@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
     title: 'WebCrunch App',
     role: 'Frontend Developer',
     stack: ['Next.js', 'Tailwind', 'Supabase', 'Stripe'],
-    description: 'An enterprise-grade SaaS platform for data analytics.',
+    description: 'An enterprise-grade SaaS platform for tech solutions.',
     problem: 'Enterprise clients needed a way to visualize complex datasets without technical expertise.',
     solution: 'Developed an intuitive drag-and-drop interface for custom report generation and implemented high-performance data grids.',
     impact: 'Onboarded 5 enterprise clients within the first month, handling over 1M+ data points seamlessly.',
@@ -91,7 +91,7 @@ export const PROJECTS: Project[] = [
     id: 'portfolio',
     title: 'Personal Portfolio',
     role: 'Designer & Developer',
-    stack: ['Next.js', 'Framer Motion', 'Tailwind'],
+    stack: ['React Vite', 'Framer Motion', 'Tailwind'],
     description: 'The website you are currently viewing.',
     problem: 'Needed a central hub to showcase diverse skill sets and projects to prospective clients.',
     solution: 'Created a high-performance, accessible, and interactive portfolio implementing modern design principles.',
@@ -103,9 +103,9 @@ export const PROJECTS: Project[] = [
 export const EXPERIENCE: Experience[] = [
   {
     id: 'tech-solutions',
-    company: 'Innovate Tech Solutions',
+    company: 'RaySeaLab',
     role: 'Senior Frontend Engineer',
-    period: '2022 - Present',
+    period: '2023 - Present',
     description: [
       'Leading a team of 4 developers in building enterprise web applications.',
       'Architecting scalable frontend systems using Next.js and Micro-frontends.',
@@ -115,7 +115,7 @@ export const EXPERIENCE: Experience[] = [
   },
   {
     id: 'creative-digital',
-    company: 'Creative Digital Agency',
+    company: 'QuruLab',
     role: 'Frontend Developer',
     period: '2020 - 2022',
     description: [
@@ -129,22 +129,22 @@ export const EXPERIENCE: Experience[] = [
     id: 'freelance',
     company: 'Freelance',
     role: 'Full Stack Developer',
-    period: '2018 - 2020',
+    period: '2025 - present',
     description: [
       'Built custom web solutions for small to medium businesses.',
       'Handled full project lifecycle from requirement gathering to deployment.',
     ],
-    metrics: ['5-star rating on Upwork', '100% Client Satisfaction']
+    metrics: ['4-star rating on Upwork', '100% Client Satisfaction']
   }
 ];
 
 export const EDUCATION: Education[] = [
   {
     id: 'bsc',
-    degree: 'B.Sc. Computer Science',
-    institution: 'University of Technology',
-    year: '2016 - 2020',
-    details: 'Graduated with First Class Honors. Specialized in Software Engineering and Human-Computer Interaction.'
+    degree: 'B.Sc. Chemistry',
+    institution: 'University of Ilorin',
+    year: '2016 - 2021',
+    details: 'Graduated with Second Class Honors. Specialized in Computational chemistry,Software Engineering and Human-Computer Interaction.'
   }
 ];
 
@@ -156,9 +156,21 @@ export const CERTIFICATIONS: Certification[] = [
     year: '2023',
   },
   {
-    id: 'meta',
-    name: 'Meta Frontend Developer Professional Certificate',
-    issuer: 'Coursera / Meta',
-    year: '2022',
+    id: 'Johns Hopkins University',
+    name: 'Johns Hopkins University Frontend Developer Professional Certificate',
+    issuer: 'Coursera',
+    year: '2024',
+  },
+  {
+    id: 'Coursera',
+    name: 'GenAI for UX Designers',
+    issuer: 'Coursera',
+    year: '2025',
+  },
+  {
+    id: 'Coursera',
+    name: 'Advanced UX Strategies for Product Managers',
+    issuer: 'Coursera',
+    year: '2025',
   }
 ];
